@@ -22,8 +22,7 @@ public class Main {
 
         // Задание 8
         int a2 = 256;
-        a2 = a2 / 10;
-        int b2 = a2 % 10;
+        int b2 = a2 / 10 % 10;
         System.out.println(b2);
     }
 }
